@@ -30,6 +30,7 @@ class Globe {
 
         System.out.print("반지름: ");
         double r = stdIn.nextDouble();
+        stdIn.close();
 
         System.out.println("겉넓이는 " + (4 * pi * r * r) + "입니다.");
         System.out.println("부피는 " + ((4 / 3.0) * pi * r * r * r) + "입니다.");

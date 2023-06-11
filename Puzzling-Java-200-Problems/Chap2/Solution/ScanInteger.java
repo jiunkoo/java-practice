@@ -25,6 +25,7 @@ class ScanInteger {
 
         System.out.print("정숫값: ");
         int x = stdIn.nextInt();
+        stdIn.close();
 
         System.out.println(x + "을(를) 입력했습니다.");
     }

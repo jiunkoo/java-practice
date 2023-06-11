@@ -25,6 +25,7 @@ class LowestDigit {
 
         System.out.print("정숫값: ");
         int x = stdIn.nextInt();
+        stdIn.close();
         
         System.out.println("마지막 자릿수를 제외한 값은 " + (x / 10) + "입니다.");
         System.out.println("마지막 자릿수는 " + (x % 5) + "입니다.");

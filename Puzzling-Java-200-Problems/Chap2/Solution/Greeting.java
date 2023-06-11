@@ -28,6 +28,7 @@ class Greeting {
         String lastName = stdIn.next();
         System.out.print("이름: ");
         String firstName = stdIn.next();
+        stdIn.close();
 
         System.out.println("안녕하세요. " + lastName + firstName + " 씨.");
     }

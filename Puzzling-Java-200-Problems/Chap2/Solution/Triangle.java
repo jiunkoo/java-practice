@@ -31,6 +31,7 @@ class Triangle {
         double width = stdIn.nextDouble();
         System.out.print("높이: ");
         double height = stdIn.nextDouble();
+        stdIn.close();
 
         System.out.println("넓이는 " + ((width * height) / 2) + "입니다.");
     }

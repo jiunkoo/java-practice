@@ -27,6 +27,7 @@ class RandomPlusMinus5 {
 
         System.out.print("정숫값: ");
         int x = stdIn.nextInt();
+        stdIn.close();
 
         System.out.println("입력값의 -5에서 +5 범위의 난수를 생성했습니다.");
         System.out.println("값은 " + (x - 5 + rand.nextInt(11)) + "입니다.");
