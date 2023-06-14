@@ -47,6 +47,7 @@ class AccountTester2 {
         int month = stdIn.nextInt();
         System.out.print("개설 일: ");
         int date = stdIn.nextInt();
+        stdIn.close();
 
         Account2 a = new Account2(name, no, balance, new Day(year, month, date));
 

@@ -58,9 +58,6 @@ public class Day {
     }
 
     public void setYear(int year) {
-        if (year == _) {
-            year = 1;
-        }
         this.year = year;
     }
     public void setMonth(int month) {

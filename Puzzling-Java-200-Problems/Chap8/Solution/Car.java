@@ -41,6 +41,8 @@ Car 클래스를 작성하자.
 =======================================================================================
 */
 // 자동차 클래스(ver.1)
+package Chap8.Solution;
+
 class Car {
     private String name;
     private String number;

@@ -16,8 +16,8 @@
 
 메서드
     1) 변수 초기화
-    2) 이름, 신장, 체중 변수값 반환 메서드
-    3) 체중 증감 메서드
+    2) 이름, 신장, 체중 변수값 반환
+    3) 체중 증감
 
 ----------------------------------------- 입력 -----------------------------------------
 없음
@@ -31,27 +31,29 @@
 =======================================================================================
 */
 // 사람 클래스(ver.2)
-class Human2 {
+package Chap8.Solution;
+
+public class Human2 {
     private String name;
     private int height;
     private int weight;
 
     //--- 생성자 ---//
-    Human2(String name, int height, int weight) {
+    public Human2(String name, int height, int weight) {
         this.name = name;
         this.height = height;
         this.weight = weight;
     }
 
-    String getName() {
+    public String getName() {
         return name;
     }
 
-    int getHeight() {
+    public int getHeight() {
         return height;
     }
 
-    int getWeight() {
+    public int getWeight() {
         return weight;
     }
 
