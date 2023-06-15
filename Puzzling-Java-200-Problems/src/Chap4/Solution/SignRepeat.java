@@ -20,7 +20,7 @@ package Chap4.Solution;
 import java.util.Scanner;
 
 // 읽은 정숫값의 부호(양수/음수/0)를 판정해서 표시(원하는 만큼 반복)
-class Sign1 {
+class SignRepeat {
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
 
