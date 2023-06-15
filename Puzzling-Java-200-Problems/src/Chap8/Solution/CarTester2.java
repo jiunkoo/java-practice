@@ -60,7 +60,7 @@ class CarTester2 {
         System.out.print("연비: ");
         double sfc = stdIn.nextDouble();
 
-        Car myCar = new Car(
+        Car1 myCar = new Car1(
             name, number, 
             width, height, length,
             tankage, fuel, sfc

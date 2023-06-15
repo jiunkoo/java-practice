@@ -33,10 +33,10 @@ public class Human3 {
     private String name;
     private int height;
     private int weight;
-    private Day birthday;
+    private Day1 birthday;
 
     //--- 생성자 ---//
-    public Human3(String name, int height, int weight, Day birthday) {
+    public Human3(String name, int height, int weight, Day1 birthday) {
         this.name = name;
         this.height = height;
         this.weight = weight;
@@ -52,8 +52,8 @@ public class Human3 {
     public int getWeight() {
         return weight;
     }
-    public Day getBirthDay() {
-        return new Day(birthday);
+    public Day1 getBirthDay() {
+        return new Day1(birthday);
     }
 
 

@@ -21,20 +21,20 @@ package Chap9.Solution;
 class PeriodTester {
     public static void main(String[] args) {
         Period taejo = new Period(
-            new Day(1392, 8, 5),
-            new Day(1398, 10, 14)
+            new Day1(1392, 8, 5),
+            new Day1(1398, 10, 14)
         );
         Period jeongjong = new Period(
-            new Day(1398, 10, 14),
-            new Day(1400, 11, 28)
+            new Day1(1398, 10, 14),
+            new Day1(1400, 11, 28)
         );
         Period taejong = new Period(
-            new Day(1400, 11, 28), 
-            new Day(1418, 9, 9)
+            new Day1(1400, 11, 28),
+            new Day1(1418, 9, 9)
         );
         Period sejong = new Period(
-            new Day(1918, 9, 9), 
-            new Day(1450, 3, 30)
+            new Day1(1918, 9, 9),
+            new Day1(1450, 3, 30)
         );
 
         System.out.println("태조 = " + taejo);

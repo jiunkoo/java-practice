@@ -43,7 +43,7 @@ Car 클래스를 작성하자.
 package Chap8.Solution;
 
 // 자동차 클래스(ver.1)
-class Car {
+class Car1 {
     private String name;
     private String number;
     private int width;
@@ -55,7 +55,7 @@ class Car {
     private double fuel;
     private double sfc;
 
-    Car(
+    Car1(
         String name, String number, 
         int width, int height, int length,
         double tankage, double fuel, double sfc

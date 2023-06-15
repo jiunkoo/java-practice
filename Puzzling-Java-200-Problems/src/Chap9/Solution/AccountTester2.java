@@ -50,7 +50,7 @@ class AccountTester2 {
         int date = stdIn.nextInt();
         stdIn.close();
 
-        Account2 a = new Account2(name, no, balance, new Day(year, month, date));
+        Account2 a = new Account2(name, no, balance, new Day1(year, month, date));
 
         System.out.println("계좌 기본 정보: " + a);
         System.out.println("개설일: " + a.getOpenDay().toString());

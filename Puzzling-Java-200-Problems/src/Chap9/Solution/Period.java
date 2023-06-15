@@ -26,19 +26,19 @@ Period 클래스를 작성하자.
 package Chap9.Solution;
 
 public class Period {
-    private Day from;
-    private Day to;
+    private Day1 from;
+    private Day1 to;
 
-    public Period(Day from, Day to) {
-        this.from = new Day(from);
-        this.to = new Day(to);
+    public Period(Day1 from, Day1 to) {
+        this.from = new Day1(from);
+        this.to = new Day1(to);
     }
 
-    public Day getFrom() {
-        return new Day(from);
+    public Day1 getFrom() {
+        return new Day1(from);
     }
-    public Day getTo() {
-        return new Day(to);
+    public Day1 getTo() {
+        return new Day1(to);
     }
 
     public String toString() {

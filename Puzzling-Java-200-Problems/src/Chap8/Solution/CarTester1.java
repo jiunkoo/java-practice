@@ -25,7 +25,7 @@ package Chap8.Solution;
 // 자동차 클래스(Ver.1)의 사용 예시(방법 1)
 class CarTester1 {
     public static void main(String[] args) {
-        Car k3 = new Car(
+        Car1 k3 = new Car1(
             "k3", "서울999-99",
             1660, 1500, 3640,
             40.0, 35.0, 12.0

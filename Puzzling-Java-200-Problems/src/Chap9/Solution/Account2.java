@@ -32,13 +32,13 @@ public class Account2 {
     private String name;
     private String no;
     private long balance;
-    private Day openDay;
+    private Day1 openDay;
 
-    public Account2(String name, String no, long balance, Day openDay) {
+    public Account2(String name, String no, long balance, Day1 openDay) {
         this.name = name;
         this.no = no;
         this.balance = balance;
-        this.openDay = new Day(openDay);
+        this.openDay = new Day1(openDay);
     }
 
     public String getName() {
@@ -50,8 +50,8 @@ public class Account2 {
     public long getBalance(){
         return balance;
     }
-    public Day getOpenDay() {
-        return new Day(openDay);
+    public Day1 getOpenDay() {
+        return new Day1(openDay);
     }
 
     void deposit(long k) {

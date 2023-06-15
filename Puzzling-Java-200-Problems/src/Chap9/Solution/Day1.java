@@ -27,25 +27,25 @@ Day 클래스를 작성하자.
 package Chap9.Solution;
 
 // 날짜 클래스(ver.1)
-public class Day {
+public class Day1 {
     private int year = 1;
     private int month = 1;
     private int date = 1;
 
-    public Day() {}
-    public Day(int year) {
+    public Day1() {}
+    public Day1(int year) {
         this.year =year;
     }
-    public Day(int year, int month) {
+    public Day1(int year, int month) {
         this.year = year;
         this.month = month;
     }
-    public Day(int year, int month, int date) {
+    public Day1(int year, int month, int date) {
         this.year = year;
         this.month = month;
         this.date = date;
     }
-    public Day(Day d) {
+    public Day1(Day1 d) {
         this(d.year, d.month, d.date);
     }
 
@@ -91,7 +91,7 @@ public class Day {
         return ((21 * a / 4) + (5 * b/ 4) + (26 * (m + 1) / 10) + d - 1) % 7;
     }
 
-    public boolean equalTo(Day d) {
+    public boolean equalTo(Day1 d) {
         return year == d.year && month == d.month && date == d.date;
     }
 

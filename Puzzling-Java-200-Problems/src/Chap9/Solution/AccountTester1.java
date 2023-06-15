@@ -20,15 +20,15 @@ package Chap9.Solution;
 // 은행 계좌 클래스(ver.2)의 사용 예시(방법 1)
 class AccountTester1 {
     public static void main(String[] args) {
-        Day d = new Day(2010, 10, 15);
+        Day1 d = new Day1(2010, 10, 15);
         Account2 gildong = new Account2("길동", "123456", 100, d);
         
-        Day p = gildong.getOpenDay();
+        Day1 p = gildong.getOpenDay();
         System.out.println("계좌 개설일: " + p);
 
         p.set(1999, 12, 31); 
 
-        Day q = gildong.getOpenDay();
+        Day1 q = gildong.getOpenDay();
         System.out.println("계좌 개설일: " + q);
     }
 }

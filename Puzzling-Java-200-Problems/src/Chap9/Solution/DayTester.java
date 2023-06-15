@@ -46,27 +46,27 @@ class DayTester {
         int date = stdIn.nextInt();
         stdIn.close();
 
-        Day p = new Day(year, month, date);
+        Day1 p = new Day1(year, month, date);
         System.out.println("p = " + p);
-        Day q = new Day(p);
+        Day1 q = new Day1(p);
         System.out.println("p와 q를 동일 날짜로 만들었습니다.");
         System.out.println("q = " + q);
 
         System.out.println((p.equalTo(q)) ? "p와 q의 날짜가 같습니다." : "p와 q의 날짜가 다릅니다.");
 
-        Day d1 = new Day();
-        Day d2 = new Day(2017);
-        Day d3 = new Day(2017, 10);
-        Day d4 = new Day(2017, 10, 1);
+        Day1 d1 = new Day1();
+        Day1 d2 = new Day1(2017);
+        Day1 d3 = new Day1(2017, 10);
+        Day1 d4 = new Day1(2017, 10, 1);
 
         System.out.println("d1 = " + d1);
         System.out.println("d2 = " + d2);
         System.out.println("d3 = " + d3);
         System.out.println("d4 = " + d4);
 
-        Day[] a = new Day[2];
+        Day1[] a = new Day1[2];
         for (int i = 0; i < a.length; i++) {
-            a[i] = new Day();
+            a[i] = new Day1();
         }
  
         for (int i = 0; i < a.length; i++) {
