@@ -26,12 +26,12 @@ Account1 클래스를 작성하자.
 package Chap9.Solution;
 
 // 은행 계좌 클래스(ver.1)
-class Account1 {
+public class Account1 {
     private String name;
     private String no;
     private long balance;
 
-    Account1(String name, String no, long balance) {
+    public Account1(String name, String no, long balance) {
         this.name = name;
         this.no = no;
         this.balance = balance;
@@ -43,11 +43,11 @@ class Account1 {
     String getNo() {
         return no;
     }
-    long getBalance(){
+    public long getBalance(){
         return balance;
     }
 
-    void deposit(long k) {
+    protected void deposit(long k) {
         balance += k;
     }
 
